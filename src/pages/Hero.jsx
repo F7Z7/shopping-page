@@ -1,12 +1,12 @@
 export default function Hero() {
     return (
         <div
-            className="flex flex-row justify-around  min-h-screen gap-8 items-center mb-5 bg-gradient-to-r from-pink-50 via-rose-100 to-pink-50 ">
-            <div>
+            className="flex flex-row  justify-around  min-h-screen gap-8 items-center mb-5 bg-gradient-to-r from-pink-50 via-rose-100 to-pink-50 ">
+            <div className="text-center text-lg md:text-left">
                 <h1 className="text-3xl font-extrabold text-gray-800 leading-tight mb-4">
                     Discover the Best Deals on <span className="text-rose-600">Stark.Shoppy</span>
                 </h1>
-                <p className="text-xl">
+                <p className="text-xl sm:text-lg md:text-xl">
                     Shop the latest fashion, electronics, and more — powered by the <span
                     className="font-bold text-rose-500">TONY STARK</span>. Affordable prices, quality items, and fast
                     delivery!
